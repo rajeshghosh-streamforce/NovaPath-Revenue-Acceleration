@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Lead</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Lead Status Path</masterLabel>
+    <pathAssistantSteps>
+        <info>New lead captured. Review the details and start outreach.</info>
+        <picklistValueName>Open</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>Outreach attempted. Log the conversation and agree the next step.</info>
+        <picklistValueName>Contacted</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>Lead is qualified. Confirm budget, authority, need and timeline.</info>
+        <picklistValueName>Qualified</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>Lead is not a fit. Record the disqualification reason.</info>
+        <picklistValueName>Unqualified</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>Lead converted. Verify the created account, contact and opportunity.</info>
+        <picklistValueName>Converted</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Standard_Lead_Process</recordTypeName>
+</PathAssistant>
